@@ -1,0 +1,14 @@
+.LoginIndex-interface-center{
+	background-color: #3A3A3A;
+	padding:100px; 
+	margin-top: 5px;
+	width:99%;
+	height:99%;
+	margin-left:3px
+}
+td{
+	background-color: red;
+    padding:25px; 
+	margin-top: 5px;
+	text-align: center;
+}
