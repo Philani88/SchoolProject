@@ -1,14 +1,24 @@
 .LoginIndex-interface-center{
-	background-color: #3A3A3A;
+	background-color: black;
 	padding:100px; 
 	margin-top: 5px;
 	width:99%;
 	height:99%;
-	margin-left:3px
+	margin-left:3px;
+}
+p{
+	margin-left: 65%;
 }
 td{
-	background-color: red;
+	background-color: tan;
     padding:25px; 
 	margin-top: 5px;
 	text-align: center;
+}
+.fumuRow{
+	background-color: white;
+}
+footer{
+	background-color: #004D52;
+	padding-bottom:3.5%;
 }
