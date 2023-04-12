@@ -6,9 +6,7 @@
 	height:99%;
 	margin-left:3px;
 }
-p{
-	margin-left: 65%;
-}
+
 td{
 	background-color: tan;
     padding:25px; 
@@ -17,8 +15,12 @@ td{
 }
 .fumuRow{
 	background-color: white;
+	
+}
+p{
+	font-size: 150%;
 }
 footer{
-	background-color: #004D52;
+	background-color: #01474D;
 	padding-bottom:3.5%;
 }
