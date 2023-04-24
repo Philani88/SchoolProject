@@ -39,8 +39,12 @@
 			  </script>
 			</select>
 		</nav>    
+	  </div><hr/>
+	  <div class = "header-row2">
+	    <span><img src = "img/footerLogo.png" style = "padding-bottom:2%" width = "10%"></span>
+	    <span><img src = "img/SchoolManangementLogo2.png" style = "padding-left:78%" width = "11.5%"></span>
 	  </div>
-	</header><hr/>
+	</header>
   </body>
   <footer style = "background-color: #01474D;">
     <div class = "footer-row" style = "padding:1% 0 1%">   	
