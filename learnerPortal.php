@@ -23,12 +23,20 @@
 			  $row = mysqli_fetch_object($getLearnerNameRes);
 			?>
 			</label>
-			<select>
+			<select style = "padding:0.5%">
 			  <option><?php echo $row->name." ".$row->surname;?></option>
 			  <option VALUE = "Masseges">masseges</option>
-			  <option VALUE = "Switch User">Switch User</option>
+			  <option VALUE = "http://localhost/SchoolManangementSys/Login-form.php">Switch User</option>
 			  <option VALUE = "Add Photo">Add Photo</option>
-			  <option VALUE = "Logout">logout</option>
+			  <option VALUE = "http://localhost/SchoolManangementSys/Login-form.php">logout</option>
+			  <script>
+			    const select = document.querySelector("select")
+                select.onchange = () => {
+                  if (select.selectedIndex !== 0) {
+                    window.location.href = select.value;
+                  }
+                };
+			  </script>
 			</select>
 		</nav>    
 	  </div>
