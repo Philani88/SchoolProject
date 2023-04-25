@@ -45,6 +45,15 @@
 	    <span><img src = "img/SchoolManangementLogo2.png" style = "padding-left:78%" width = "11.5%"></span>
 	  </div>
 	</header>
+	<div class = "horizontal-optionBar">
+	   <ul>
+	     <li><a  href = "#">Home</a></li>
+		 <li><a  href = "#">Dashboard<a></li>
+		 <li><a href = "#">My Subjects</a></li>
+		 <li><a href = "#">FOSS</a></li>
+		 <li><a href = "#">Past Exam Papers</a></li>
+	   </u/>
+	</div>
   </body>
   <footer style = "background-color: #01474D;">
     <div class = "footer-row" style = "padding:1% 0 1%">   	
