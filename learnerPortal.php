@@ -45,14 +45,57 @@
 	    <span><img src = "img/SchoolManangementLogo2.png" style = "padding-left:78%" width = "11.5%"></span>
 	  </div>
 	</header>
-	<div class = "horizontal-optionBar">
-	   <ul>
-	     <li><a  href = "#">Home</a></li>
-		 <li><a  href = "#">Dashboard<a></li>
-		 <li><a href = "#">My Subjects</a></li>
-		 <li><a href = "#">FOSS</a></li>
-		 <li><a href = "#">Past Exam Papers</a></li>
-	   </u/>
+	<div class = "horizontal-optionBar" style = "background-color:#01474D">
+	   <style>
+        #example {
+        width: 50%;
+        height: 10%;
+        padding-left: 24.2%;
+        display: -webkit-flex;
+        /* Safari */
+        -webkit-align-items: stretch;
+        /* Safari 7.0+ */
+        display: flex;
+        align-items: center;
+      }
+      #example li {
+        -webkit-flex: 1;
+        /* Safari 6.1+ */
+        flex: 1;
+        list-style: none;
+		text-align: left;
+      }
+      </style>
+	  <ul id="example">
+        <li>
+	      <ul>
+	         <li><a style = "text-decoration: none;color:white" href ="#"><p><img src = "img/homeIcon.png" width = "17%" style = "padding-right:2%" >Home</p></a></li>
+	      </ul>
+	    </li>
+        <li>
+	      <ul>
+	         <li><a style = "text-decoration: none;color:white" href ="#"><p><img src ="img/dashboardIcon.png" width = "17%" style = "padding-right:2%">Dashboard</p></a></li>
+		  </ul>
+        <li>
+	      <ul>
+	         <li><a style = "text-decoration: none;color:white" href = "#"><p><img src ="img/mySubjectsIcon.png" width = "17%" style = "padding-right:2%">My subjects</p></a></li>
+		  </ul> 
+	    </li>
+	    <li>
+	      <ul>
+	         <li><a style = "text-decoration: none;color:white" href = "#"><p>FOSS</p></a></li>
+		  </ul> 
+	    </li>
+	    <li>
+	      <ul>
+	         <li><a  style = "text-decoration: none; color:white" href = "#"><p>Past Exam Papers</p></a></li>
+		  </ul> 
+	    </li>
+      </ul>
+    </div>
+    <div class = "announcement-bar">
+	  <div style = "background-color: tan" width = "24px"  >ANNOUNCEMENTS</div>
+	  	
 	</div>
   </body>
   <footer style = "background-color: #01474D;">
