@@ -3,7 +3,8 @@
   <head>
     <title>Learner Dashboard</title>
 	<link href = "studentPortalStyle.css">
-    <meta></meta>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
   </head>
   <body>
     <header>
@@ -97,16 +98,33 @@
 	  <p style = "background-color: grey; padding: 0.35%;font-weight:bold">ANNOUNCEMENTS:</p>
 	  <p style = "color: grey;padding-bottom: 0.25%">no announcements...</p>	
 	</div>
+	<div style = "padding-bottom:5%">
 	  <section class = "mid-left-section-colunm" >
-	    <div style = "border:2px solid #01474D; width :63.5%">
+	    <div style = "border:2px solid #01474D; width :500%">
 		   <h3><img src = "img/menuIcon.png" ></img>Recently accessed subjects</h3>
 		<div>
 	  </section>
 	  <aside>
-	    <nav>
-		  available networks
-		<nav>
-	  </aside><br>
+	    <div style = "border:2px solid #01474D; width :200%">
+		   <h3><img src = "img/menuIcon.png" ></img>Network Server:</h3>
+		<div>
+	  </aside>
+	 </div>
+	  
+	  <style>
+	    aside {
+          float: right;
+          background-color: #f1f1f1;
+		  padding-right:20%;
+        }
+
+        section {
+		  float: left;
+		  padding:0%		  
+          display: table;
+          clear: both;
+}
+	  </style>
   </body>
   <footer style = "background-color: #01474D;">
     <div class = "footer-row" style = "padding:1% 0 1%">   	
@@ -116,4 +134,5 @@
 	</div>  
   </footer>
 </html>
+
 
