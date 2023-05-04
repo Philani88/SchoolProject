@@ -97,11 +97,16 @@
 	  <p style = "background-color: grey; padding: 0.35%;font-weight:bold">ANNOUNCEMENTS:</p>
 	  <p style = "color: grey;padding-bottom: 0.25%">no announcements...</p>	
 	</div>
-	  <section class = "mid-left-section-colunm">
-	    <div style = "border:2px solid #01474D;">
+	  <section class = "mid-left-section-colunm" >
+	    <div style = "border:2px solid #01474D; width :63.5%">
 		   <h3><img src = "img/menuIcon.png" ></img>Recently accessed subjects</h3>
 		<div>
-	  </section><br>
+	  </section>
+	  <aside>
+	    <nav>
+		  available networks
+		<nav>
+	  </aside><br>
   </body>
   <footer style = "background-color: #01474D;">
     <div class = "footer-row" style = "padding:1% 0 1%">   	
@@ -111,3 +116,4 @@
 	</div>  
   </footer>
 </html>
+
