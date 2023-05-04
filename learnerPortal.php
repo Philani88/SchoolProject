@@ -26,9 +26,9 @@
 			<select style = "padding:0.5%">
 			  <option><?php echo $row->name." ".$row->surname;?></option>
 			  <option VALUE = "Masseges">masseges</option>
-			  <option VALUE = "http://localhost/SchoolManangementSys/Login-form.php">Switch User</option>
+			  <option VALUE = "http://localhost/SchoolProject/Login-form.php">Switch User</option>
 			  <option VALUE = "Add Photo">Add Photo</option>
-			  <option VALUE = "http://localhost/SchoolManangementSys/Login-form.php">logout</option>
+			  <option VALUE = "http://localhost/SchoolProject/Login-form.php">logout</option>
 			  <script>
 			    const select = document.querySelector("select")
                 select.onchange = () => {
@@ -93,9 +93,9 @@
 	    </li>
       </ul>
     </div>
-    <div class = "announcement-bar">
-	  <div style = "background-color: tan" width = "24px"  >ANNOUNCEMENTS</div>
-	  	
+    <div class = "announcement-bar" style = "background-color: tan" >
+	  <p style = "background-color: grey; padding: 0.35%;font-weight:bold">ANNOUNCEMENTS:</p>
+	  <p style = "color: grey;padding-bottom: 0.25%">no announcements...</p>	
 	</div>
   </body>
   <footer style = "background-color: #01474D;">
