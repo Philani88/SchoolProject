@@ -45,7 +45,7 @@
 	    <span><img src = "img/SchoolManangementLogo2.png" style = "padding-left:78%" width = "11.5%"></span>
 	  </div>
 	</header>
-	<div class = "horizontal-optionBar" style = "background-color:#01474D">
+	<nav class = "horizontal-optionBar" style = "background-color:#01474D">
 	   <style>
         #example {
         width: 50%;
@@ -92,11 +92,16 @@
 		  </ul> 
 	    </li>
       </ul>
-    </div>
+    </nav>
     <div class = "announcement-bar" style = "background-color: tan" >
 	  <p style = "background-color: grey; padding: 0.35%;font-weight:bold">ANNOUNCEMENTS:</p>
 	  <p style = "color: grey;padding-bottom: 0.25%">no announcements...</p>	
 	</div>
+	  <section class = "mid-left-section-colunm">
+	    <div style = "border:2px solid #01474D;">
+		   <h3><img src = "img/menuIcon.png" ></img>Recently accessed subjects</h3>
+		<div>
+	  </section><br>
   </body>
   <footer style = "background-color: #01474D;">
     <div class = "footer-row" style = "padding:1% 0 1%">   	
