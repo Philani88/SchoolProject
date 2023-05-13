@@ -27,9 +27,9 @@
 			<select style = "padding:0.5%">
 			  <option><?php echo $row->name." ".$row->surname;?></option>
 			  <option VALUE = "Masseges">masseges</option>
-			  <option VALUE = "http://localhost/SchoolProject/Login-form.php">Switch User</option>
+			  <option VALUE = "http://localhost/SchoolProject/login-form.php">Switch User</option>
 			  <option VALUE = "Add Photo">Add Photo</option>
-			  <option VALUE = "http://localhost/SchoolProject/Login-form.php">logout</option>
+			  <option VALUE = "http://localhost/SchoolProject/login-form.php">logout</option>
 			  <script>
 			    const select = document.querySelector("select")
                 select.onchange = () => {
@@ -41,7 +41,7 @@
 			</select>
 		</nav>    
 	  </div><hr/>
-	  <div class = "header-row2">
+	  	  <div class = "header-row2">
 	    <span><img src = "img/footerLogo.png" style = "padding-bottom:2%" width = "10%"></span>
 	    <span><img src = "img/SchoolManangementLogo2.png" style = "padding-left:78%" width = "11.5%"></span>
 	  </div>
@@ -94,45 +94,117 @@
 	    </li>
       </ul>
     </nav>
-    <div class = "announcement-bar" style = "background-color: tan" >
-	  <p style = "background-color: grey; padding: 0.35%;font-weight:bold">ANNOUNCEMENTS:</p>
-	  <p style = "color: grey;padding-bottom: 0.25%">no announcements...</p>	
-	</div>
-	<div style = "padding-bottom:5%">
-	  <section class = "mid-left-section-colunm" >
-	    <div style = "border:2px solid #01474D; width :500%">
-		   <h3><img src = "img/menuIcon.png" ></img>Recently accessed subjects</h3>
-		<div>
+	<div class = "announcements-horizontal-row" style = "background-color:tan">
+	  <p style = "font-weight:bold;background-color:grey;padding:0.15% 0.25% 0.35%">Announcements:</p>
+	  <p style = "font-weight:bold;color: grey;padding:0 1% 0.45%">no announcements...</p>
+	</div><br>
+	<div style = "width:99%;height:190%;padding-bottom:3%">
+	  <section style = "float : left;width : 55rem">
+	    <div class = "mid-section-colomn-left" align= "left" style = "padding-bottom:5%;border:3pt solid #01474D;width : `100%">
+		  <h3 style = "padding-left:1%;"><img src = "img/menuIcon.png">Recently accessed subjects</h3><hr/>
+		  <span>
+		    <ul class = "recent-subj-list">
+			  <li><a><img width = "30%"caption ="maths" src = "img/mathsCover.png"></img></a></li>
+			  <li><a><img width = "30%"caption ="maths" src = "img/mathsCover.png"></img></a></li>
+			  <li><a><img width = "30%"caption ="maths" src = "img/mathsCover.png"></img></a></li>
+			</ul>
+			<style>
+			  ul.recent-subj-list > li {
+                display: inline;
+				padding: 0.75%;
+              }
+			</style>
+		  </span> 
+        </div><br><br>
+		<div class = "mid-section-colomn-left" style = "padding-bottom:5%;border:3pt solid #01474D;width : 99%">
+		    <h3 style = "padding-left:1%;">All subjects</h3><hr>
+			<span align = "center">
+		    <ul class = "all-subj-list">
+			  <li><a><img width = "15%"caption ="maths" src = "img/mathsCover.png"></img></a></li>
+			  <li><a><img width = "15%"caption ="maths" src = "img/mathsCover.png"></img></a></li>
+			  <li><a><img width = "15%"caption ="maths" src = "img/mathsCover.png"></img></a></li>
+			  <li><a><img width = "15%"caption ="maths" src = "img/mathsCover.png"></img></a></li>
+			  <li><a><img width = "15%"caption ="maths" src = "img/mathsCover.png"></img></a></li>
+			  <li><a><img width = "15%"caption ="maths" src = "img/mathsCover.png"></img></a></li>
+			  <li><a><img width = "15%"caption ="maths" src = "img/mathsCover.png"></img></a></li>	  
+			</ul>
+			<style>
+			  ul.all-subj-list > li {
+				padding: 3%;
+              }
+			</style>
+			</span>
+		</div> 
 	  </section>
-	  <aside>
-	    <div style = "border:2px solid #01474D; width :200%">
-		   <h3><img src = "img/menuIcon.png" ></img>Network Server:</h3>
-		<div>
-	  </aside>
-	 </div>
-	  
-	  <style>
-	    aside {
-          float: right;
-          background-color: #f1f1f1;
-		  padding-right:20%;
-        }
-
-        section {
-		  float: left;
-		  padding:0%		  
-          display: table;
-          clear: both;
-}
-	  </style>
+	  <aside style = "padding:6% 18% 0 0;float : right">
+	    <div class = "mid-section-colomn-right" style = "padding-bottom:10%;border:3pt solid #01474D;width : 200%">
+		  <h3 style = "padding-left:1%;">Available servers</h3><hr>
+		  <a href = "#">server 1</a>
+		</div><br><br><br>
+		<div class = "mid-section-right-col-events" style = "border:3pt solid #01474D;width : 230%">
+		  <h3 style = "padding-left:1%;">Messeges</h3><hr>
+		  <ul class = "events-list">
+			  <li><a href = "#"><p>Messege link1</p></a></li> 
+			  <li><a href = "#"><p>Messege link2</p></a></li> 
+		  </ul>
+		  <style>
+			  ul.events-list > li, .mid-section-right-col-events{
+				padding: 2%;
+              }
+			</style>
+		</div><br><br><br>
+		<div class = "mid-section-right-col-events" style = "border:3pt solid #01474D;width : 230%">
+		  <h3 style = "padding-left:1%;">Events</h3><hr>
+		  <ul class = "events-list">
+			  <li><a><img caption ="maths" src = "img/option1.png">Math</img></a></li>
+			  <li><a><img caption ="maths" src = "img/option1.png">Math</img></a></li>
+			  <li><a><img caption ="maths" src = "img/option1.png">Math</img></a></li>
+			  
+		  </ul>
+		  <style>
+			  ul.events-list > li, .mid-section-right-col-events{
+				padding: 2%;
+              }
+			</style>
+		</div><br><br><br>
+		<div class = "mid-section-right-col-calender" style = "border:3pt solid #01474D;width : 230%">
+		  <h3 style = "padding-left:1%;">School calender</h3><hr>
+		  <ul class = "events-list">
+			  <li><a><img caption ="maths" src = "img/option1.png">Math</img></a></li>
+			  <li><a><img caption ="maths" src = "img/option1.png">Math</img></a></li>
+			  <li><a><img caption ="maths" src = "img/option1.png">Math</img></a></li>
+			  
+		  </ul>
+		  <style>
+			  ul.events-list > li, .mid-section-right-col-events{
+				padding: 2%;
+              }
+			</style>
+		</div>
+	  </aside><br>
+	</div><br>
+	<span style = "padding-bottom:20%">
+	  <div style = "border:3.5pt solid grey;padding:0.75% 0 2.25% 30%; background-color: tan">
+	    <div>
+	      <form method = "post" action= "findSubject.php">
+		    <input name = "subj-search" style = "width:50%;text-align:left;padding:2.5% 1% 1.5%" type = "text" placeholder = "learning subject to search for?"/>
+		    <a href= "#" role = "button"><img src = "img/searchIcon.png" width = "3%"></a>
+			<div style = "padding-right:50.25%" align = "center">
+			  <p>: e.g. Mathematics</p><hr/>
+		    </div>
+		  </form>
+	    </div>
+	    <nav style = " padding:0.65% 1.95% 0.65% .65%;width:26.5%;border:5pt solid grey;float : right">
+	        <img src = "img/footerLogo.png"style = "width:100%;border:5pt solid grey;">
+	    </nav>
+	  </div>	
+	</span><br>
   </body>
   <footer style = "background-color: #01474D;">
-    <div class = "footer-row" style = "padding:1% 0 1%">   	
+    <div class = "footer-row" style = "padding:1% 0 2.5% 0">   	
 	  <nav>
-	   <p style = "color:white" align = "center" > © 2023 fumu web appplications </p>
+	   <p style = "padding-left:20%;color:white" align = "center" > © 2023 fumu web appplications </p>
 	  </nav>
 	</div>  
   </footer>
 </html>
-
-
